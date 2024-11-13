@@ -1,0 +1,27 @@
+h1, h2, h3, h4 {
+    font-family: "Barrio";
+    color: rgb(187, 102, 116);
+}
+
+body {
+    background-color: lightgray;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+nav {
+    font-family: Papyrus;
+}
+
+li {
+    display: inline;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+footer {
+    margin-top: 10em;
+    margin-bottom: 0;
+    height: 2.5rem;
+}
