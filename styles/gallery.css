@@ -22,7 +22,7 @@ html, body {
     margin: 0;
     display: flex;
     flex-direction: column;
-    cursor: url('/assets/cur226.cur'), auto;
+    cursor: url("/assets/leash_outline_icon.png"), default;
 }
 
 body {
@@ -84,7 +84,7 @@ a.btn {
     cursor: pointer;
     position: relative;
     transition: all 0.3s;
-    cursor: url('/assets/cur226.cur'), auto;
+    cursor: url("/assets/leash_outline_icon.png"), default;
 }
 
 a.btn:hover span {
