@@ -22,6 +22,7 @@ html, body {
     margin: 0;
     display: flex;
     flex-direction: column;
+    cursor: url('/assets/cur226.cur'), auto;
 }
 
 body {
@@ -71,12 +72,8 @@ figcaption {
     display: flex;
 }
 
-a {
-    text-decoration: none;
-    color: #BB6674;
-}
-
 a.btn {
+    text-decoration: none;
     color: #BB6674;
     font-family: "Open-Dyslexic";
     font-size: 18px;
@@ -87,6 +84,7 @@ a.btn {
     cursor: pointer;
     position: relative;
     transition: all 0.3s;
+    cursor: url('/assets/cur226.cur'), auto;
 }
 
 a.btn:hover span {
