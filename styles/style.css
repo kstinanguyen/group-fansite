@@ -15,7 +15,7 @@ nav {
 }
 
 li {
-    display: inline;
+    /* display: inline; */
     padding-left: 30px;
     padding-right: 30px;
 }
@@ -24,4 +24,8 @@ footer {
     margin-top: 10em;
     margin-bottom: 0;
     height: 2.5rem;
+}
+
+.navigation {
+    display: inline;
 }

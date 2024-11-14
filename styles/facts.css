@@ -1,0 +1,13 @@
+.list-facts {
+   list-style: circle;
+   text-align: left;
+   padding: 7px;
+   
+}
+
+body {
+    background-color: lightgray;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
