@@ -8,6 +8,13 @@ body {
     margin-left: 10%;
     margin-right: 10%;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
 }
 
 nav {
@@ -15,15 +22,12 @@ nav {
 }
 
 li {
-    /* display: inline; */
     padding-left: 30px;
     padding-right: 30px;
 }
 
 footer {
-    margin-top: 10em;
-    margin-bottom: 0;
-    height: 2.5rem;
+    padding: 10px;
 }
 
 .navigation {
