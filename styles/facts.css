@@ -11,4 +11,10 @@ ul {
 main {
   display: flex;
   align-items: center;
+  padding-bottom: 2%;
 }
+
+.text-facts {
+  color: #539068;
+}
+
