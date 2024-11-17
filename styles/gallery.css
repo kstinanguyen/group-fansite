@@ -1,3 +1,13 @@
+html {
+    --main-color: #1b2e22;
+    --button-color-visited: #823A44;
+    --button-color: #62222C;
+}
+
+.subtitle, h2, .figure-column figcaption {
+    color: var(--main-color);
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: 1fr;
@@ -20,14 +30,12 @@ h1 {
 
 .subtitle {
     font-size: 24px;
-    color: #1b2e22;
 }
 
 main { 
     grid-area: 2 / 1 / 10 / 11;
     padding: 20px;
     overflow: auto;
-    width: auto;
 }
 
 .figure-container {
@@ -66,7 +74,6 @@ main {
 .figure-column figcaption {
     margin-top: 8px;
     font-size: 0.9em;
-    color: #1b2e22;
     width: 100%;
     text-align: center;
     white-space: normal;
@@ -83,14 +90,14 @@ footer {
 }
 
 a.btn {
-    color: #62222C;
+    color: var(--button-color);
 }
 
 a.btn::before {
-    border-top: 1px solid #823A44;
-    border-bottom: 1px solid #823A44;
+    border-top: 1px solid var(--button-color);
+    border-bottom: 1px solid var(--button-color);
 }
 
 a.btn:visited {
-    color: #823A44;
+    color: var(--button-color-visited);
 }
