@@ -2,11 +2,6 @@ html {
     font-family: "Open-Dyslexic";
 }
 
-h1, h2, h3, h4 {
-    font-family: "Open-Dyslexic";
-    color: rgb(187, 102, 116);
-}
-
 body {
     background-color: #dedada;
     text-align: center;
@@ -25,7 +20,10 @@ header {
 h1 {
     font-size: 64px;
     color: #539068;
-    text-shadow: -1px -1px 0 #1b2e22, 1px -1px 0 #1b2e22, -1px 1px 0 #1b2e22, 1px 1px 0 #1b2e22;
+    text-shadow: -1px -1px 0 #1b2e22,
+                 1px -1px 0 #1b2e22,
+                 -1px 1px 0 #1b2e22,
+                 1px 1px 0 #1b2e22;
 }
 
 h2 {
@@ -33,12 +31,10 @@ h2 {
 }
 
 main {
-    font-family: "Open-Dyslexic";
     flex: 1;
 }
 
 nav {
-    font-family: "Open-Dyslexic";
     justify-content: center;
     background-color: #c8c6c6;
 }
@@ -89,7 +85,6 @@ footer {
 a.btn {
     text-decoration: none;
     color: #BB6674;
-    font-family: "Open-Dyslexic";
     font-size: 18px;
     line-height: 50px;
     height: 50px;
