@@ -1,0 +1,23 @@
+.list-facts {
+  list-style: circle;
+  text-align: left;
+  padding: 10px;
+}
+
+ul {
+  margin: 0 17%;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  padding-bottom: 2.5%;
+}
+
+.text-facts {
+  color: #539068;
+}
+
+h2 {
+  color: #BB6674;
+}

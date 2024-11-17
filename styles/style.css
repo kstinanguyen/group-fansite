@@ -1,0 +1,137 @@
+html {
+    font-family: "Open-Dyslexic";
+}
+
+body {
+    background-color: #dedada;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+header {
+    background-color: #c8c6c6;
+    width: 100%;
+}
+
+h1 {
+    font-size: 64px;
+    color: #539068;
+    text-shadow: -1px -1px 0 #1b2e22,
+                 1px -1px 0 #1b2e22,
+                 -1px 1px 0 #1b2e22,
+                 1px 1px 0 #1b2e22;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+main {
+    flex: 1;
+}
+
+nav {
+    justify-content: center;
+    background-color: #c8c6c6;
+}
+
+li {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 1.25rem;
+}
+
+p {
+    font-size: 1.25rem;
+}
+
+footer {
+    padding: 3%;
+    background-color: #c8c6c6;
+    color: #1b2e22;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.navigation {
+    display: inline;
+}
+
+.btn-container {
+    display: flex;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.box {
+    display: flex;
+}
+
+a.btn {
+    text-decoration: none;
+    color: #BB6674;
+    font-size: 18px;
+    line-height: 50px;
+    height: 50px;
+    width: 250px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.3s;
+    cursor: url("/assets/leash_outline_icon.png"), default;
+}
+
+a.btn:hover span {
+    letter-spacing: 2px;
+}
+
+a.btn::before, a.btn::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all 0.3s;
+}
+
+a.btn::before {
+    opacity: 0;
+    border-top: 1px solid #BB6674;
+    border-bottom: 1px solid #BB6674;
+    transform: scale(0.1, 1);
+}
+
+a.btn:hover::before {
+    opacity: 1;
+    transform: scale(1, 1);
+}
+
+a.btn::after {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+a.btn:hover::after {
+    opacity: 0;
+    transform: scale(0.1, 1);
+}
+
+a.btn:visited {
+    color: #993544;
+}
